@@ -1,0 +1,221 @@
+20:27:56 (lmgrd) -----------------------------------------------
+20:27:56 (lmgrd)   Please Note:
+20:27:56 (lmgrd) 
+20:27:56 (lmgrd)   This log is intended for debug purposes only.
+20:27:56 (lmgrd)   In order to capture accurate license
+20:27:56 (lmgrd)   usage data into an organized repository,
+20:27:56 (lmgrd)   please enable report logging. Use Flexera's
+20:27:56 (lmgrd)   software license administration  solution,
+20:27:56 (lmgrd)   FlexNet Manager, to  readily gain visibility
+20:27:56 (lmgrd)   into license usage data and to create
+20:27:56 (lmgrd)   insightful reports on critical information like
+20:27:56 (lmgrd)   license availability and usage. FlexNet Manager
+20:27:56 (lmgrd)   can be fully automated to run these reports on
+20:27:56 (lmgrd)   schedule and can be used to track license
+20:27:56 (lmgrd)   servers and usage across a heterogeneous
+20:27:56 (lmgrd)   network of servers including Windows NT, Linux
+20:27:56 (lmgrd)   and UNIX.
+20:27:56 (lmgrd) 
+20:27:56 (lmgrd) -----------------------------------------------
+20:27:56 (lmgrd) 
+20:27:56 (lmgrd) 
+20:27:56 (lmgrd) Server's System Date and Time: Sun May 30 2021 20:27:56 IST
+20:27:56 (lmgrd) SLOG: Summary LOG statistics is enabled.
+20:27:56 (lmgrd) The license server manager (lmgrd) running as root:
+20:27:56 (lmgrd) 	This is a potential security problem
+20:27:56 (lmgrd) 	and is not recommended.
+20:27:56 (lmgrd) FlexNet Licensing (v11.16.6.0 build 260203 x64_lsb) started on CLM-RTC (linux) (5/30/2021)
+20:27:56 (lmgrd) Copyright (c) 1988-2019 Flexera. All Rights Reserved.
+20:27:56 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+20:27:56 (lmgrd) License file(s): /home/license.dat
+20:27:56 (lmgrd) lmgrd tcp-port 27000
+20:27:56 (lmgrd) (@lmgrd-SLOG@) ===============================================
+20:27:56 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+20:27:56 (lmgrd) (@lmgrd-SLOG@) Start-Date: Sun May 30 2021 20:27:56 IST
+20:27:56 (lmgrd) (@lmgrd-SLOG@) PID: 3104
+20:27:56 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.16.6.0 build 260203 x64_lsb ( build 260203 (ipv6))
+20:27:56 (lmgrd) (@lmgrd-SLOG@) 
+20:27:56 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+20:27:56 (lmgrd) (@lmgrd-SLOG@) Listening port: 27000
+20:27:56 (lmgrd) (@lmgrd-SLOG@) 
+20:27:56 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+20:27:56 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+20:27:56 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c /home/license.dat -l /home/debug.log 
+20:27:56 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  /home/license.dat
+20:27:56 (lmgrd) (@lmgrd-SLOG@) ===============================================
+20:27:56 (lmgrd) Starting vendor daemons ... 
+20:27:56 (lmgrd) Starting vendor daemon at port 39554
+20:27:56 (lmgrd) Using vendor daemon port 39554 specified in license file
+20:27:56 (lmgrd) Started /home/mvsn (internet tcp_port 39554 pid 3106)
+20:27:56 (mvsn) Unable to initialize access to trusted storage: 2
+20:27:56 (mvsn) FlexNet Licensing version v11.11.1.2 build 134642 i86_lsb
+20:27:56 (mvsn) lmgrd version 11.16, mvsn version 11.11
+
+20:27:56 (mvsn) Server started on CLM-RTC for:	IAEE		
+20:27:56 (mvsn) EXTERNAL FILTERS are OFF
+20:27:56 (lmgrd) Got Message from Unknown Vendor Daemon: mvsn -- ignoring
+20:46:10 (mvsn) TCP_NODELAY NOT enabled
+20:46:16 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:46:16 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:46:16 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:46:16 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:46:51 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:46:51 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:46:51 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:46:51 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:47:27 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:47:27 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:47:27 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+20:47:27 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+21:10:17 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+21:10:17 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+21:10:17 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+21:10:17 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+22:15:17 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:15:17 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:15:17 (mvsn) OUT: "IAEE" root@installany  
+22:15:37 (mvsn) IN: "IAEE" root@installany  
+22:15:38 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:15:38 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:15:38 (mvsn) OUT: "IAEE" root@installany  
+22:16:48 (mvsn) IN: "IAEE" root@installany  
+22:16:49 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:16:49 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:16:49 (mvsn) OUT: "IAEE" root@installany  
+22:17:06 (mvsn) IN: "IAEE" root@installany  
+22:17:07 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:17:07 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:17:07 (mvsn) OUT: "IAEE" root@installany  
+22:17:25 (mvsn) IN: "IAEE" root@installany  
+22:17:26 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:17:26 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:17:26 (mvsn) OUT: "IAEE" root@installany  
+22:17:41 (mvsn) IN: "IAEE" root@installany  
+22:17:42 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:17:42 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:17:42 (mvsn) OUT: "IAEE" root@installany  
+22:18:03 (mvsn) IN: "IAEE" root@installany  
+22:18:04 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:18:04 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:18:04 (mvsn) OUT: "IAEE" root@installany  
+22:18:21 (mvsn) IN: "IAEE" root@installany  
+22:21:22 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:21:22 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:21:22 (mvsn) OUT: "IAEE" root@installany  
+22:21:48 (mvsn) IN: "IAEE" root@installany  
+22:21:49 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:21:49 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:21:49 (mvsn) OUT: "IAEE" root@installany  
+22:23:03 (mvsn) IN: "IAEE" root@installany  
+22:23:04 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:23:04 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:23:04 (mvsn) OUT: "IAEE" root@installany  
+22:23:22 (mvsn) IN: "IAEE" root@installany  
+22:23:23 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:23:23 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:23:23 (mvsn) OUT: "IAEE" root@installany  
+22:23:41 (mvsn) IN: "IAEE" root@installany  
+22:23:42 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:23:42 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:23:42 (mvsn) OUT: "IAEE" root@installany  
+22:23:58 (mvsn) IN: "IAEE" root@installany  
+22:23:59 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:23:59 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:23:59 (mvsn) OUT: "IAEE" root@installany  
+22:24:20 (mvsn) IN: "IAEE" root@installany  
+22:24:21 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:24:21 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+22:24:21 (mvsn) OUT: "IAEE" root@installany  
+22:24:38 (mvsn) IN: "IAEE" root@installany  
+22:27:07 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) ari51789@ccbuild1  (License server system does not support this feature. (-18,327))
+22:27:08 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) ari51789@ccbuild1  (License server system does not support this feature. (-18,327))
+22:27:09 (mvsn) OUT: "IAEE" ari51789@ccbuild1  
+22:38:15 (mvsn) IN: "IAEE" ari51789@ccbuild1  
+23:47:14 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) Administrator@ccwin201201  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+23:47:14 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) Administrator@ccwin201201  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+23:47:14 (mvsn) OUT: "IAEE" Administrator@ccwin201201  
+23:59:21 (mvsn) IN: "IAEE" Administrator@ccwin201201  
+ 2:27:56 (lmgrd) TIMESTAMP 5/31/2021
+ 2:32:56 (mvsn) TIMESTAMP 5/31/2021
+ 5:25:30 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) ari51789@ccbuild1  (License server system does not support this feature. (-18,327))
+ 5:25:31 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) ari51789@ccbuild1  (License server system does not support this feature. (-18,327))
+ 5:25:32 (mvsn) OUT: "IAEE" ari51789@ccbuild1  
+ 5:36:49 (mvsn) IN: "IAEE" ari51789@ccbuild1  
+ 8:27:56 (lmgrd) TIMESTAMP 5/31/2021
+ 8:37:57 (mvsn) TIMESTAMP 5/31/2021
+ 9:45:41 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) Administrator@ccwin201201  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+ 9:45:41 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) Administrator@ccwin201201  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+ 9:45:41 (mvsn) OUT: "IAEE" Administrator@ccwin201201  
+ 9:58:02 (mvsn) IN: "IAEE" Administrator@ccwin201201  
+10:16:17 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) sspbuild@sspbuild1  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+10:16:18 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) sspbuild@sspbuild1  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+10:16:19 (mvsn) OUT: "IAEE" sspbuild@sspbuild1  
+10:32:34 (mvsn) IN: "IAEE" sspbuild@sspbuild1  
+10:52:40 (mvsn) OUT: "IAEE" root@NoNode  
+11:05:00 (mvsn) OUT: "IAEE" sspbuild@sspbuild1  
+11:08:14 (mvsn) IN: "IAEE" sspbuild@sspbuild1  
+11:08:57 (mvsn) OUT: "IAEE" sspbuild@sspbuild1  
+11:13:45 (mvsn) IN: "IAEE" sspbuild@sspbuild1  
+11:35:17 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) ari51789@ccbuild1  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+11:35:19 (mvsn) UNSUPPORTED: "IACB" (PORT_AT_HOST_PLUS   ) ari51789@ccbuild1  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+11:35:20 (mvsn) OUT: "IAEE" ari51789@ccbuild1  
+11:42:39 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) sspbuild@sspbuild1  (License server system does not support this feature. (-18,327))
+11:42:40 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) sspbuild@sspbuild1  (License server system does not support this feature. (-18,327))
+11:42:41 (mvsn) OUT: "IAEE" sspbuild@sspbuild1  
+11:51:40 (mvsn) IN: "IAEE" ari51789@ccbuild1  
+11:52:17 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) ari51789@ccbuild1  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+11:52:18 (mvsn) UNSUPPORTED: "IACB" (PORT_AT_HOST_PLUS   ) ari51789@ccbuild1  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+11:52:19 (mvsn) OUT: "IAEE" ari51789@ccbuild1  
+11:57:43 (mvsn) IN: "IAEE" ari51789@ccbuild1  
+11:58:12 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) ari51789@ccbuild1  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+11:58:13 (mvsn) UNSUPPORTED: "IACB" (PORT_AT_HOST_PLUS   ) ari51789@ccbuild1  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+11:58:14 (mvsn) OUT: "IAEE" ari51789@ccbuild1  
+11:59:06 (mvsn) IN: "IAEE" sspbuild@sspbuild1  
+12:03:27 (mvsn) IN: "IAEE" ari51789@ccbuild1  
+12:20:28 (mvsn) OUT: "IAEE" sspbuild@sspbuild1  
+12:22:15 (mvsn) IN: "IAEE" sspbuild@sspbuild1  
+12:44:07 (mvsn) OUT: "IAEE" root@cdrqa-067  
+12:45:38 (mvsn) IN: "IAEE" root@cdrqa-067  
+12:45:50 (mvsn) OUT: "IAEE" root@cdrqa-067  
+12:54:21 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+12:54:21 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+12:54:21 (mvsn) OUT: "IAEE" root@installany  
+12:55:52 (mvsn) IN: "IAEE" root@installany  
+12:55:53 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+12:55:53 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) root@installany  (License server system does not support this feature. (-18,327))
+12:55:53 (mvsn) OUT: "IAEE" root@installany  
+12:56:53 (mvsn) IN: "IAEE" root@installany  
+13:11:04 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) Administrator@ccwin201201  (License server system does not support this feature. (-18,327))
+13:11:04 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) Administrator@ccwin201201  (License server system does not support this feature. (-18,327))
+13:11:04 (mvsn) OUT: "IAEE" Administrator@ccwin201201  
+13:24:54 (mvsn) IN: "IAEE" Administrator@ccwin201201  
+13:26:41 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) sspbuild@sspbuild1  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+13:26:42 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) sspbuild@sspbuild1  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+13:26:43 (mvsn) OUT: "IAEE" sspbuild@sspbuild1  
+13:30:20 (mvsn) OUT: "IAEE" root@NoNode  
+13:42:55 (mvsn) IN: "IAEE" sspbuild@sspbuild1  
+14:07:22 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) Administrator@ccwin201201  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+14:07:22 (mvsn) UNSUPPORTED: "IAEB" (PORT_AT_HOST_PLUS   ) Administrator@ccwin201201  (License server system does not support this feature. (-18,327:104 "Connection reset by peer"))
+14:07:22 (mvsn) OUT: "IAEE" Administrator@ccwin201201  
+14:16:00 (mvsn) OUT: "IAEE" root@NoNode  
+14:19:40 (mvsn) IN: "IAEE" Administrator@ccwin201201  
+14:26:24 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:26:24 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:26:24 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:26:24 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:28:00 (lmgrd) TIMESTAMP 5/31/2021
+14:31:16 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:31:16 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:31:16 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:31:16 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:31:49 (mvsn) OUT: "IAEE" Administrator@mftbld1  
+14:32:21 (mvsn) IN: "IAEE" Administrator@mftbld1  
+14:33:33 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:33:33 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:33:33 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:33:33 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:41:42 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:41:42 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:41:42 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:41:42 (mvsn) Bad handshake detected with Administrator mftbld1 JavaDisplay
+14:42:58 (mvsn) TIMESTAMP 5/31/2021
